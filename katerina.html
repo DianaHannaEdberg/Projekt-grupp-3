@@ -1,14 +1,44 @@
 <html>
 <head>
     <title>Katerina's sida</title>
+    <style>
+        #main {
+            height: 70%;
+            width: 45%;
+            background-color: rgba(255, 228, 196, 0.347);
+        }
+        #main {
+        padding-top: 1px;  /* eller 10px om du vill ha luft */
+        }
+        #info {
+            height: 5%;
+            width: 45%;
+            background-color: rgba(255, 228, 196, 0.719);
+            height: 45px;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+    </style>
     <meta charset="UTF-8">
 </head>
 <body>
-    <h1>Välkommen till Katerinas sida!</h1>
-    <p>Hej! Jag heter Katerina och detta är min personliga webbsida.</p>
-    <h2>Om mig</h2>
-    <p>Jag älskar att resa, laga mat och läsa böcker. På min fritid tycker jag om att träna och umgås med familjen.</p>
-    <h2>Kontakt</h2>
-    <p>Önskar alla stort lycka till!</p>
+    <header id="info">
+        <a href="index.html">Tillbaka</a>
+    </header>
+    <div id="main">
+        <h1>Välkommen till Katerinas sida!</h1>
+        <p>Hej! Jag heter Katerina och detta är min personliga webbsida.</p>
+        <h2>Om mig</h2>
+        <img src="city.png">
+        <p>Jag bor i Göteborg</p>
+        <p>Jag älskar att resa, laga mat och läsa böcker. På min fritid tycker jag om att träna och umgås med familjen.</p>
+       
+        <p>Önskar alla stort lycka till!</p>
+    </div>
+
+    <footer id="info">Kontakt via Discord</footer>
 </body>
 </html>
